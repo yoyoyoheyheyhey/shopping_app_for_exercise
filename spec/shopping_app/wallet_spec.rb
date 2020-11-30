@@ -24,7 +24,7 @@ RSpec.describe Wallet do
     it "balance属性に定義されている数値を返すこと" do
       expect(wallet.balance).to eq balance
     end
-    it "'#owner='は定義されていないこと（attr_readerを使っていること）" do
+    it "'#balance='は定義されていないこと（attr_readerを使っていること）" do
       expect(wallet.methods.include?(:balance=)).to eq false
     end
   end
