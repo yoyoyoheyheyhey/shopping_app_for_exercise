@@ -7,6 +7,8 @@ $ ruby lib/shopping_app.rb
 ```ruby
 $ rspec
 ```
+- 期待するテストの実行結果
+[![Image from Gyazo](https://i.gyazo.com/43641660d40816f46b8f8f495db6856a.png)](https://gyazo.com/43641660d40816f46b8f8f495db6856a)
 
 ## 要件
 - [ ] オーナー権限が必要なクラス全てにOwnableモジュールをincludeさせなさい。
