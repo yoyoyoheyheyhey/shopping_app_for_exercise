@@ -1,6 +1,11 @@
 ## 実行コマンド
+- shopping_appの実行
 ```ruby
-ruby lib/shopping_app.rb
+$ ruby lib/shopping_app.rb
+```
+- テスの実行
+```ruby
+$ rspec
 ```
 
 ## 要件
