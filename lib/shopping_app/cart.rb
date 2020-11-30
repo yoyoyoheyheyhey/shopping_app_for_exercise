@@ -5,19 +5,19 @@ class Cart
 
   def initialize(owner)
     self.owner = owner
-    @contents = []
+    @items = []
   end
 
   def items
-    @contents
+    @items
   end
 
   def add(item)
-    @contents << item
+    @items << item
   end
 
   def total_amount
-    items.sum(&:price)
+    @items.sum(&:price)
   end
 
   def check_out
