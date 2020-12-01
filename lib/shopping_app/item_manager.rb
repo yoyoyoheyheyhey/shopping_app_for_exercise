@@ -1,3 +1,4 @@
+# TODO: モジュールのテキストのリンクを添える
 require "kosi"
 require_relative "item"
 
