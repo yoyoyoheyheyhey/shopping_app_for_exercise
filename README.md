@@ -3,7 +3,7 @@
 ```ruby
 $ ruby lib/shopping_app.rb
 ```
-- テスの実行
+- テストの実行
 ```ruby
 $ rspec
 ```
